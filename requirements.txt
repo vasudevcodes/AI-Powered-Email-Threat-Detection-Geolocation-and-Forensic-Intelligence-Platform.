@@ -1,0 +1,34 @@
+# PhishIntel: Free & Open-Source Dependencies
+# 100% Free Software under Permissive Licenses (MIT, BSD, Apache 2.0, PSF)
+# Zero paid APIs or commercial licenses required.
+
+# Core Testing & Data Validation
+pytest>=8.0.0
+pydantic>=2.6.0
+
+# HTML Sanitization: Built-in Python standard library html.parser with strict allowlists
+# Zero native DLL dependencies, Windows AppLocker-safe, 100% Free FOSS under PSF License.
+
+# Phase 2: DNS & Cryptographic Authentication (Free / FOSS)
+dnspython>=2.6.0
+pyspf>=2.0.14
+dkimpy>=1.1.5
+
+# Phase 3: Offline Geolocation & Threat Feeds (Free / FOSS)
+maxminddb>=2.6.0
+geoip2>=4.8.0
+
+# Phase 4: Static Attachment Forensics (Free / FOSS)
+oletools>=0.60.2
+
+# Phase 5: Local Transformer NLP (Free / FOSS - Local Inference on RTX 3050 GPU)
+torch>=2.2.0
+transformers>=4.38.0
+accelerate>=0.27.0
+
+# Phase 6 & 7: API Gateway & Free PDF Generation (Free / FOSS)
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+reportlab>=4.1.0
+requests>=2.31.0
